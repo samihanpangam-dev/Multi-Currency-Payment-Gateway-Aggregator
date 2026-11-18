@@ -1,0 +1,36 @@
+{
+"schemaVersion": 1,
+"fxRates": {"USD": 1.0,
+"EUR": 0.92,
+"INR": 83.5},
+"providers": [
+{"id": "stripe"
+,
+"name": "Stripe Mock"
+,
+"feePct": 1.5},
+{"id": "razorpay"
+,
+"name": "Razorpay Mock"
+,
+"feePct": 1.2}
+],
+"transactions": [
+{
+"id": "tx_101"
+,
+"baseAmount": 100.0,
+"baseCurrency": "USD"
+,
+"targetAmount": 8350.0,
+"targetCurrency": "INR"
+,
+"provider": "razorpay"
+,
+"feeCharged": 100.2,
+"status": "APPROVED"
+,
+"timestamp": "2026-10-16T11:00:00Z"
+}
+]
+}
